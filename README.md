@@ -6,6 +6,7 @@
  1. Don't get hit.
  2. Kill them enemies.
  3. Hit them sweet airshots.
+ 
  Main intention was to make weapons as satisfying and as useful as possible: you can beat the game even without taking any weapons or secondaries.
  
 ![some screenshots](https://raw.githubusercontent.com/UghZan/Doomer/main/Screenshots/Screenshot%202022-04-08%2015-38-44.png)
