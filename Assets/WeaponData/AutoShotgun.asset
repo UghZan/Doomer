@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 743ac28adc3395a4abbf76ea458771df, type: 3}
+  m_Name: AutoShotgun
+  m_EditorClassIdentifier: 
+  weaponName: Sosig-13k
+  weaponIcon: {fileID: 28503282, guid: ed0d599066229af4b9c2f3d72257f76e, type: 3}
+  weaponInfo: When the imposter is numerous! (automatic shotgun)
+  damage: 4
+  damageVariance: 2
+  critChanceBonus: -0.2
+  range: 100
+  ammoMax: 12
+  isAutomatic: 1
+  shootSpeed: 3
+  ammoPerShot: 1
+  weaponSpread: 100
+  reloadTime: 3.5
+  muzzleChance: 1
+  recoilIncreaseStep: 0.25
+  fixedRecoil: 0
+  maxRecoil: 2
+  minRecoil: 0
+  recoilRecoverSpeed: 1
+  horizontalCamRecoil: 6
+  verticalCamRecoil: 20
+  negativeVerticalRecoilReduction: -0.2
+  maxVisualRecoil: 2
+  minVisualRecoil: 1
+  visualRecoilRecoverSpeed: 1
+  horizontalRotPunch: 8
+  verticalRotPunch: 24
+  pushBackForce: 0.5
+  negativeVerticalReduction: -0.2

@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a706aed0cda3fb4b8390a3a174527bb, type: 3}
+  m_Name: FloppaMedic
+  m_EditorClassIdentifier: 
+  role: 3
+  health: 20
+  hpGainPerRank: 3
+  movementSpeed:
+  - 7
+  - 7
+  - 8
+  - 8
+  minDistanceFromPlayer: 15
+  maxDistanceFromPlayer: 50
+  shootSound: {fileID: 8300000, guid: ff7ba577aa311864bab7da69c7016fe8, type: 3}
+  usedWeapon: 0
+  weaponDamage: 0.06
+  maxAmmoInMag: 25
+  maxGrenadesInBag: 00000000000000000000000000000000
+  shotSpeed: 15
+  shootDelay:
+  - 0.3
+  - 0.2
+  - 0.2
+  - 0.15
+  shotsInVolley: 06000000050000000400000004000000
+  timeBetweenVolleys:
+  - 3
+  - 2
+  - 2
+  - 1
+  floppaInaccuracy:
+  - 0.11
+  - 0.09
+  - 0.07
+  - 0.05
+  targetLeadFactor:
+  - 0
+  - 0.25
+  - 0.66
+  - 0.75
+  mayUseGrenades: 00000000
+  chanceToChangePositionAfterShooting:
+  - 0.33
+  - 0.5
+  - 0.66
+  - 0.75
+  chanceToShootOnTheMove:
+  - 0.25
+  - 0.33
+  - 0.5
+  - 0.75
+  chanceToRetreatOnTheHit:
+  - 0.05
+  - 0.02
+  - 0.01
+  - 0
+  chanceToThrowGrenade:
+  - 0
+  - 0
+  - 0
+  - 0
+  grenadeThrowAccuracy:
+  - 4
+  - 3
+  - 2
+  - 2
+  minGrenadeDistance: 0
+  maxGrenadeDistance: 0
+  reloadDelay: 4
+  healPercentage:
+  - 0.5
+  - 0.66
+  - 0.75
+  - 1
+  applicationTime:
+  - 2
+  - 1.5
+  - 1
+  - 0.5

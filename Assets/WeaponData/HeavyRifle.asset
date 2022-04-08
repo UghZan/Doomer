@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 743ac28adc3395a4abbf76ea458771df, type: 3}
+  m_Name: HeavyRifle
+  m_EditorClassIdentifier: 
+  weaponName: CB-22T "Vorpalizer"
+  weaponIcon: {fileID: -1461602738, guid: ed0d599066229af4b9c2f3d72257f76e, type: 3}
+  weaponInfo: Too good to become a service weapon(press RMB to shoot minirockets)
+  damage: 6
+  damageVariance: 3
+  critChanceBonus: 0.05
+  range: 500
+  ammoMax: 20
+  isAutomatic: 1
+  shootSpeed: 6
+  ammoPerShot: 1
+  weaponSpread: 2
+  reloadTime: 4
+  muzzleChance: 0.8
+  recoilIncreaseStep: 1
+  fixedRecoil: 0
+  maxRecoil: 2
+  minRecoil: 0
+  recoilRecoverSpeed: 1
+  horizontalCamRecoil: 6
+  verticalCamRecoil: 16
+  negativeVerticalRecoilReduction: -0.2
+  maxVisualRecoil: 1
+  minVisualRecoil: 1
+  visualRecoilRecoverSpeed: 1
+  horizontalRotPunch: 6
+  verticalRotPunch: 15
+  pushBackForce: 0.2
+  negativeVerticalReduction: -0.2

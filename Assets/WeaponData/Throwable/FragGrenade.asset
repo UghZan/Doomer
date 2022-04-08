@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ce351bf743d1104cb5b5e79f40f7557, type: 3}
+  m_Name: FragGrenade
+  m_EditorClassIdentifier: 
+  weaponName: Shrapnel Grenade
+  weaponIcon: {fileID: -2062503874, guid: ed0d599066229af4b9c2f3d72257f76e, type: 3}
+  weaponInfo: Old reliable (explodes with shrapnel)
+  throwPower: 50
+  rechargeSpeed: 10
+  maxOnHand: 2
+  thrownObject: {fileID: 4735955632039332404, guid: adacdd7b3542768488a13abb0dcea340,
+    type: 3}

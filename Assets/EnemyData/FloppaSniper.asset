@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a706aed0cda3fb4b8390a3a174527bb, type: 3}
+  m_Name: FloppaSniper
+  m_EditorClassIdentifier: 
+  role: 2
+  health: 10
+  hpGainPerRank: 2
+  movementSpeed:
+  - 3
+  - 3
+  - 4
+  - 4
+  minDistanceFromPlayer: 10
+  maxDistanceFromPlayer: 100
+  shootSound: {fileID: 8300000, guid: b7746e3fbe9bf2c41be0d12016d288cb, type: 3}
+  usedWeapon: 2
+  weaponDamage: 0.3
+  maxAmmoInMag: 5
+  maxGrenadesInBag: 00000000000000000000000000000000
+  shotSpeed: 80
+  shootDelay:
+  - 1
+  - 1
+  - 1
+  - 0.75
+  shotsInVolley: 01000000010000000200000002000000
+  timeBetweenVolleys:
+  - 3
+  - 3
+  - 3
+  - 2
+  floppaInaccuracy:
+  - 0.05
+  - 0.04
+  - 0.02
+  - 0
+  targetLeadFactor:
+  - 0.75
+  - 0.9
+  - 1
+  - 1
+  mayUseGrenades: 00000000
+  chanceToChangePositionAfterShooting:
+  - 0.25
+  - 0.33
+  - 0.5
+  - 0.5
+  chanceToShootOnTheMove:
+  - 0
+  - 0
+  - 0
+  - 0
+  chanceToRetreatOnTheHit:
+  - 0.5
+  - 0.5
+  - 0.5
+  - 0.5
+  chanceToThrowGrenade:
+  - 0
+  - 0
+  - 0
+  - 0
+  grenadeThrowAccuracy:
+  - 0
+  - 0
+  - 0
+  - 0
+  minGrenadeDistance: 0
+  maxGrenadeDistance: 0
+  reloadDelay: 5
+  healPercentage: []
+  applicationTime: []
